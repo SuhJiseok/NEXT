@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+const debug = process.env.NODE_ENV !== 'production'
+const name = 'NEXT'
+
+
 const nextConfig = {
   reactStrictMode: true,
   assetPrefix: !debug ? `/${name}/` : '',
@@ -10,8 +14,7 @@ const nextConfig = {
 
 
 //next.config.js
-const debug = process.env.NODE_ENV !== 'production'
-const name = '/NEXT'
+
 
 
 

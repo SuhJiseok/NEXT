@@ -12,7 +12,7 @@ export default function post({postData}:{postData:{
   return (
     <div>
       <Head>
-        <title>{postData.title}</title>
+        <title></title>
       </Head>
       <article>
         <h1 className={homeStyles.headingXl}>{postData.title}</h1>
